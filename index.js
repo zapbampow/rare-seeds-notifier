@@ -21,7 +21,7 @@ request("https://www.rareseeds.com/store/vegetables/live-plants/pepper-black-2-p
         .create({
           body: "Black pepper vines are in stock = " + availability,
           from: twilioNum,
-          to: clayton
+          to: sendNumn
         })
         .then(message => console.log(message.sid));
     } else {
